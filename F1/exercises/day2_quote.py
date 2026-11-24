@@ -24,3 +24,10 @@
 
 # Your code below this line
 
+name = input("What is your name: ")
+product_cost = float(input("How much do you pay for the service: "))
+users = int(input("Number of active users: "))
+monthly_cost = product_cost * users
+yearly_cost = monthly_cost * 12
+print(f"Hello {name}, the product costs ${product_cost:.2f}. For {users} users, the cost will be ${monthly_cost:,.2f} per month and ${yearly_cost:,.2f} yearly.")
+print(f"Your name {name} has {len(name)} characters")
